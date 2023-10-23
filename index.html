@@ -54,11 +54,13 @@ id="tribute-info", que contiene contenido textual que describe
 el tema de la página de tributo.</p>
 
         <form= action="/enviar-respuesta">
-          <label for="exterior"><input id="exterior" type="radio" name="interior-exterior"> exterior </label><br>
+          <label for="exterior"><input id="exterior" type="radio" name="interior-exterior" checked> exterior </label><br>
             
           <label for="interior"><input id="interior" type="radio" name="interior-exterior"> interior </label><br>
           
-          <input type="checkbox">
+          <label for="carinoso"><input id="carinoso" type="checkbox" name="personalidad" checked>carinoso</label>
+          <label for="peresoso"><input id="peresoso" type="checkbox" name="personalidad">peresoso</label>
+          <label for="energico"><input id="energico" type="checkbox" name="personalidad">energico</label>
 
           <input type="text" placeholder="URL la direccion de la foto de tu gato" required>
           <button type="submit">Enviar</button>
